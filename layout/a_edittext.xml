@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <EditText
+    android:id="@+id/et_remark"
+    style="@style/ff"
+    android:layout_gravity="left"
+    android:background="@null"
+    android:gravity="top|left"
+    android:hint="回复..."
+    android:padding="8dip"
+    android:textColor="@color/addnew_theme_text_color"
+    android:textColorHint="@color/addnew_hint_color"
+    android:textCursorDrawable="@null"
+    android:textSize="@dimen/text_font_16" />
+
+
+
+     <EditText
+        android:id="@+id/et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dip"
+        android:paddingTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:background="@null"
+        android:hint="请输入收件人姓名"
+        android:singleLine="true"
+        android:textColor="@color/deliver_address_text"
+        android:textColorHint="@color/deliver_address_hint"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/text_font_16" />
